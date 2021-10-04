@@ -23,7 +23,7 @@ public class Shop {
         productList.remove(product);
         allStockCost -= product.getPrice();
         sales += product.getPrice();
-        System.out.println("Sold [" + product.getName() + "] for " + product.getName());
+        System.out.println("Sold [" + product.getName() + "] for " + product.getPrice());
     }
 
     public void checkAllStockCost() {
